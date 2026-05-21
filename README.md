@@ -23,3 +23,13 @@ curl -O https://raw.githubusercontent.com/kobayashikazu/teampcp-vscode-auditor/m
 
 # 2. Run
 python3 audit.py
+
+**Requirements**
+- Python 3.6+
+- No external dependencies (standard library only)
+
+## What It Does
+- Detects known malicious VS Code extensions from the TeamPCP campaign
+- Works cross-platform (Windows / macOS / Linux)
+- Parses `package.json` of every installed extension
+- Gives clear alerts and immediate remediation guidance
